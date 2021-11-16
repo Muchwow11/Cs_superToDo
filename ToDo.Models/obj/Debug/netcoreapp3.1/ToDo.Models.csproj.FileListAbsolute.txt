@@ -1,0 +1,9 @@
+C:\Users\mokytojas\source\repos\SuperToDo\ToDo.Models\bin\Debug\netcoreapp3.1\ToDo.Models.deps.json
+C:\Users\mokytojas\source\repos\SuperToDo\ToDo.Models\bin\Debug\netcoreapp3.1\ToDo.Models.dll
+C:\Users\mokytojas\source\repos\SuperToDo\ToDo.Models\bin\Debug\netcoreapp3.1\ToDo.Models.pdb
+C:\Users\mokytojas\source\repos\SuperToDo\ToDo.Models\obj\Debug\netcoreapp3.1\ToDo.Models.csprojAssemblyReference.cache
+C:\Users\mokytojas\source\repos\SuperToDo\ToDo.Models\obj\Debug\netcoreapp3.1\ToDo.Models.AssemblyInfoInputs.cache
+C:\Users\mokytojas\source\repos\SuperToDo\ToDo.Models\obj\Debug\netcoreapp3.1\ToDo.Models.AssemblyInfo.cs
+C:\Users\mokytojas\source\repos\SuperToDo\ToDo.Models\obj\Debug\netcoreapp3.1\ToDo.Models.csproj.CoreCompileInputs.cache
+C:\Users\mokytojas\source\repos\SuperToDo\ToDo.Models\obj\Debug\netcoreapp3.1\ToDo.Models.dll
+C:\Users\mokytojas\source\repos\SuperToDo\ToDo.Models\obj\Debug\netcoreapp3.1\ToDo.Models.pdb

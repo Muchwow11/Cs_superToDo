@@ -1,0 +1,18 @@
+﻿@using MyToDo.api.viewModels
+@model ToDoMessage
+
+    <div>
+        <div>
+            @Model.Message
+        </div>
+        <div>
+            @TempData;
+        </div>
+
+        @{ 
+            foreach (var item in Model.Todos)
+            {
+                <p>@item.Title <a asp-controller="Home" asp-action="Todos" asp-route-id="@item.ToDoId">Details</a></p>
+            }
+        }
+    </div>

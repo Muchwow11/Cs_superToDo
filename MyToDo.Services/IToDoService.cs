@@ -8,7 +8,7 @@ namespace MyToDo.Services
     {
         ToDo SaveTodo(ToDo item);
         ToDo UpdateTodo(ToDo item);
-        IEnumerable<ToDo> GetAll(int page, int size);
+        IEnumerable<ToDo> GetAll();
         ToDo GetById(int id);
         IEnumerable<ToDo> GetActive();
         ToDo Put(int id, bool status);

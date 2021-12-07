@@ -21,10 +21,10 @@ namespace MyToDo.api.Controllers
 
 
         [HttpGet]
-        public IEnumerable<ToDo> Get([FromQuery] int page = 1, int size = 1)
+        public IEnumerable<ToDo> Get()
         {
 
-            return _service.GetAll(page, size);
+            return _service.GetAll();
         }
 
         [HttpGet("{id}")]

@@ -8,13 +8,17 @@ namespace MyToDo.Services
 {
     public class ToDoService : IToDoService
     {
-        public IEnumerable<ToDo> GetAll(int page, int size)
-        {
 
-            using (var db = new ApplicationDbContext())
-            {
-                return db.ToDos.Skip((page - 1) * size).Take(size).ToList();
-            }
+        private readonly ApplicationDbContext _db;
+
+        public ToDoService(ApplicationDbContext services)
+        {
+            _db = services;
+        }
+
+        public IEnumerable<ToDo> GetAll()
+        {
+            return _db.ToDos.ToList();
         }
         public ToDo Put(int id, bool status)
         {

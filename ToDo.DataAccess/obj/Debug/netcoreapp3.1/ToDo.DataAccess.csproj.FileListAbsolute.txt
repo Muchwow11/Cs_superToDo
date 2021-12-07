@@ -22,3 +22,16 @@ C:\Users\moksleivis\source\repos\SuperToDo\ToDo.DataAccess\obj\Debug\netcoreapp3
 C:\Users\moksleivis\source\repos\SuperToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.csproj.CopyComplete
 C:\Users\moksleivis\source\repos\SuperToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.dll
 C:\Users\moksleivis\source\repos\SuperToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.pdb
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.DataAccess.deps.json
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.DataAccess.dll
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.DataAccess.pdb
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\SuperTodo.dll
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\SuperTodo.pdb
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.csproj.AssemblyReference.cache
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.AssemblyInfoInputs.cache
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.AssemblyInfo.cs
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.csproj.CoreCompileInputs.cache
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.csproj.CopyComplete
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.dll
+E:\OneDrive\Documents\GitHub\Cs_superToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.pdb

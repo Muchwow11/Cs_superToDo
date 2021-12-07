@@ -16,3 +16,13 @@ C:\Users\moksleivis\source\repos\SuperToDo\SuperTodo\obj\Debug\netcoreapp3.1\Sup
 C:\Users\moksleivis\source\repos\SuperToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.csproj.CoreCompileInputs.cache
 C:\Users\moksleivis\source\repos\SuperToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.dll
 C:\Users\moksleivis\source\repos\SuperToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.pdb
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\bin\Debug\netcoreapp3.1\SuperTodo.deps.json
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\bin\Debug\netcoreapp3.1\SuperTodo.dll
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\bin\Debug\netcoreapp3.1\SuperTodo.pdb
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.csproj.AssemblyReference.cache
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.AssemblyInfoInputs.cache
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.AssemblyInfo.cs
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.csproj.CoreCompileInputs.cache
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.dll
+E:\OneDrive\Documents\GitHub\Cs_superToDo\SuperTodo\obj\Debug\netcoreapp3.1\SuperTodo.pdb

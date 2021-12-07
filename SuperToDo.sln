@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Console", "Todo.Console\Todo.Console.csproj", "{373C00AA-4529-4C7C-A94E-79490A9F4403}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{3E99775A-5BE6-4254-BAEF-F640A1967207}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{ECF76FBC-554E-44BF-9959-8908F5C13A44}"
@@ -17,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperTodo", "SuperTodo\Supe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyToDo.Services", "MyToDo.Services\MyToDo.Services.csproj", "{2A31B026-8F1B-426A-8820-CFE8FB88DF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyToDo.api", "MyToDo.api\MyToDo.api.csproj", "{72657EAF-F431-465E-AEA5-24AED8C0F318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyToDo.api", "MyToDo.api\MyToDo.api.csproj", "{72657EAF-F431-465E-AEA5-24AED8C0F318}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{373C00AA-4529-4C7C-A94E-79490A9F4403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{373C00AA-4529-4C7C-A94E-79490A9F4403}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{373C00AA-4529-4C7C-A94E-79490A9F4403}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{373C00AA-4529-4C7C-A94E-79490A9F4403}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F62E14DE-359C-4397-B6A1-479F2EFFEB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F62E14DE-359C-4397-B6A1-479F2EFFEB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62E14DE-359C-4397-B6A1-479F2EFFEB69}.Release|Any CPU.ActiveCfg = Release|Any CPU

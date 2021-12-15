@@ -1,9 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using MyToDo.api.viewModels;
-using MyToDo.Services;
 using SuperTodo;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -11,10 +9,13 @@ namespace MyToDo.api.Controllers
 {
     public class AuthController : Controller
     {
-        private readonly IUserService _service;
-        public AuthController(IUserService service)
+
+        private readonly UserManager<User> _userService;
+        private readonly SignInManager<User> _signInService;
+        public AuthController(UserManager<User> userManager, SignInManager<User> signInManager)
         {
-            _service = service;
+            _userService = userManager;
+            _signInService = signInManager;
         }
 
         public IActionResult Index() => RedirectToAction("Registration");
@@ -25,19 +26,48 @@ namespace MyToDo.api.Controllers
         }
 
         [HttpPost]
-        public IActionResult Registration(RegistrationViewModel model)
+        public async Task<IActionResult> Registration(RegistrationViewModel model)
         {
-            if (ModelState.IsValid && model.Password == model.ConfirmPassword)
+            if (ModelState.IsValid && (model.Password == model.ConfirmPassword))
             {
-                User user = new User();
-                user.Name = model.Name;
-                user.Password = model.Password;
-                user.Email = model.Email;
+                var newUser = new User() { Email = model.Email, FullName = model.Name };
 
-                var myUser = _service.AddUser(user);
+                var result = await _userService.CreateAsync(newUser, model.Password);
 
-                return View("~/Views/Home/Index.cshtml");
+                if (result.Succeeded)
+                {
+                    await _signInService.SignInAsync(newUser, isPersistent: false);
+                    return RedirectToAction("index", "Admin");
+                }
 
+                TempData["Errors"] = result.Errors.First().Description;
+
+
+            }
+
+            return View(model);
+        }
+
+        public IActionResult Login(string returnUrl = null)
+        {
+            ViewBag.ReturnUrl["ReturnUrl"] = returnUrl;
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var myUser = await _userService.FindByEmailAsync(model.Email);
+
+                if (myUser != null)
+                {
+                    var result = await _signInService.PasswordSignInAsync(myUser, model.Password, false, false);
+                    if (result.Succeeded)
+                    {
+                        return Redirect(model.ReturnUrl);
+                    }
+                }
             }
 
             return View(model);

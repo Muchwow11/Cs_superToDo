@@ -72,10 +72,8 @@ namespace MyToDo.Services
 
         public ToDo GetById(int id)
         {
-            using (var db = new ApplicationDbContext())
-            {
-                return db.ToDos.FirstOrDefault(t => t.ToDoId == id);
-            }
+            ToDo item = _db.ToDos.Where(todo => todo.ToDoId == id).SingleOrDefault();
+            return item;
         }
     }
 }

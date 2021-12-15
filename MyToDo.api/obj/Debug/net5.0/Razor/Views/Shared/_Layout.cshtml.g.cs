@@ -19,8 +19,15 @@ using SuperTodo;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\OneDrive\Documents\GitHub\Cs_superToDo\MyToDo.api\Views\_ViewImports.cshtml"
+using MyToDo.api.viewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f8a000d16ca928d7d3defb744bedb0c782912be2", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d0dfb7038e68fc2a0e26afebffd1f756e75f3c71", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c2dadfe857c665a99b55cda07d59da161c0ce962", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -49,7 +56,7 @@ using SuperTodo;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8a000d16ca928d7d3defb744bedb0c782912be23069", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8a000d16ca928d7d3defb744bedb0c782912be23258", async() => {
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
 #nullable restore
 #line 6 "E:\OneDrive\Documents\GitHub\Cs_superToDo\MyToDo.api\Views\Shared\_Layout.cshtml"
@@ -71,7 +78,7 @@ using SuperTodo;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8a000d16ca928d7d3defb744bedb0c782912be24412", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8a000d16ca928d7d3defb744bedb0c782912be24601", async() => {
                 WriteLiteral("\r\n    <div>\r\n        ");
 #nullable restore
 #line 11 "E:\OneDrive\Documents\GitHub\Cs_superToDo\MyToDo.api\Views\Shared\_Layout.cshtml"

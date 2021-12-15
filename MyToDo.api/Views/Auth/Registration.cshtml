@@ -2,22 +2,26 @@
 
 <h1>Registration</h1>
 
-<form asp-action="Registration">
-    <div><input type="text" asp-for="@Model.Name" placeholder="Iveskite prisijungimo varda" /></div>
+@if (TempData["Errors"] != null)
+            {
+                <p class="text-danger">@TempData["Errors"]</p>
+            }
 
+<form asp-action="Registration">
+
+    <div><input type="text" asp-for="@Model.Name" placeholder="Iveskite prisijungimo varda" /></div
     <span asp-validation-for="@Model.Name"></span>
 
-    <div><input type="password" asp-for="@Model.Password" placeholder="Jusu slaptazodis" /></div>
-
+    <div><input type="password" asp-for="@Model.Password" placeholder="Jusu slaptazodis" /></div
     <span asp-validation-for="@Model.Password"></span>
 
-    <div><input type="password" asp-for="@Model.ConfirmPassword" placeholder="Jusu slaptazodis" /></div>
-
+    <div><input type="password" asp-for="@Model.ConfirmPassword" placeholder="Jusu slaptazodis" /></div
     <span asp-validation-for="@Model.ConfirmPassword"></span>
 
-    <div><input type="email" asp-for="@Model.Email" placeholder="email adressas" /></div>
-
+    <div><input type="email" asp-for="@Model.Email" placeholder="email adressas" /></div
     <span asp-validation-for="@Model.Email"></span>
 
-    <button>Continue</button>
+    <div class="form-group">
+        <input type="submit" value="Continue" class="btn btn-primary" />
+    </div>
 </form>

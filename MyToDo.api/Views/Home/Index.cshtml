@@ -12,7 +12,7 @@
         @{ 
             foreach (var item in Model.Todos)
             {
-                <p>@item.Title <a asp-controller="Home" asp-action="Todos" asp-route-id="@item.ToDoId">Details</a></p>
+                <p>@item.Title <a asp-controller="Home" asp-action="ToDo" asp-route-id="@item.ToDoId">Details</a></p>
             }
         }
     </div>

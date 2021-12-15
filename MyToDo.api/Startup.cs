@@ -20,12 +20,19 @@ namespace MyToDo.api
                 options.Password.RequireUppercase = false;
                 options.Password.RequiredLength = 4;
                 options.Password.RequireNonAlphanumeric = false;
+                options.User.RequireUniqueEmail = true;
             })
 
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-            
-            //services.AddDbContext<ApplicationDbContext>();
+
+            services.ConfigureApplicationCookie(o =>
+            {
+                o.LoginPath = "/auth/login";
+                o.SlidingExpiration = true;
+            });
+
+            services.AddDbContext<ApplicationDbContext>();
 
             services.AddTransient<IToDoService, ToDoService>();
             services.AddTransient<IUserService, UserService>();
@@ -50,6 +57,10 @@ namespace MyToDo.api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

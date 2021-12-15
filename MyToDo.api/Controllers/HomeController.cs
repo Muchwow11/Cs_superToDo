@@ -1,10 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MyToDo.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MyToDo.api.viewModels;
+using MyToDo.Services;
 
 namespace WebApi.Controllers
 {
@@ -40,10 +37,26 @@ namespace WebApi.Controllers
             return View();
         }
 
-        public IActionResult SingleToDo(int id)
+        [Authorize(Roles = "Admin")]
+        public IActionResult ContactUs(string id)
         {
-            var movie = _services.GetById(id);
-            return View(movie);
+            ViewBag.test = User.Identity.Name;
+
+            string foo = "ka yra";
+            string bar = "nieka";
+
+            KlausimoViewModel model = new KlausimoViewModel()
+            {
+                Klausimas = foo,
+                Atsakymas = bar
+            };
+
+            return View(model);
+        }
+        public IActionResult ToDo(int id)
+        {
+            var myTodo = _services.GetById(id);
+            return View(myTodo);
         }
     }
 }

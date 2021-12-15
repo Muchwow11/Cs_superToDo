@@ -339,3 +339,4 @@ E:\OneDrive\Documents\GitHub\Cs_superToDo\MyToDo.api\obj\Debug\net5.0\MyToDo.api
 E:\OneDrive\Documents\GitHub\Cs_superToDo\MyToDo.api\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
 E:\OneDrive\Documents\GitHub\Cs_superToDo\MyToDo.api\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 E:\OneDrive\Documents\GitHub\Cs_superToDo\MyToDo.api\obj\Debug\net5.0\Razor\Views\Home\ToDo.cshtml.g.cs
+E:\OneDrive\Documents\GitHub\Cs_superToDo\MyToDo.api\obj\Debug\net5.0\Razor\Views\Auth\Login.cshtml.g.cs

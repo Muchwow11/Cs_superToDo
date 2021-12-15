@@ -19,8 +19,15 @@ using SuperTodo;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\OneDrive\Documents\GitHub\Cs_superToDo\MyToDo.api\Views\_ViewImports.cshtml"
+using MyToDo.api.viewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"968ce197a6f5e1f1a320d1733218158c350e6cff", @"/Views/Home/ToDo.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d0dfb7038e68fc2a0e26afebffd1f756e75f3c71", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c2dadfe857c665a99b55cda07d59da161c0ce962", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_ToDo : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ToDo>
     {
         #pragma warning disable 1998
